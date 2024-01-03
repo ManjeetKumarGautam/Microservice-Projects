@@ -1,16 +1,13 @@
-package com.ecommerce.user.UserService;
+package com.manjeet.RatingService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-
-public class UserServiceApplication {
-
-
+public class RatingServiceApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(UserServiceApplication.class, args);
+		SpringApplication.run(RatingServiceApplication.class, args);
 	}
 
 }

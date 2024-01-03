@@ -1,16 +1,13 @@
-package com.ecommerce.user.UserService;
+package com.manjeet.HotelService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-
-public class UserServiceApplication {
-
+public class HotelServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserServiceApplication.class, args);
+		SpringApplication.run(HotelServiceApplication.class, args);
 	}
 
 }
